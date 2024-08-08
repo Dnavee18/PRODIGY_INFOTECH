@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="task1.css" />
+    <title>Burger House</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <div class="nav__header">
+          <div class="nav__logo">
+            <a href="#">
+              <img
+                src="logo-dark.png"
+                alt="logo"
+                class="nav__logo-dark"
+              />
+              <img
+                src="logo-white.png"
+                alt="logo"
+                class="nav__logo-white"
+              />
+            </a>
+          </div>
+          <div class="nav__menu__btn" id="menu-btn">
+            <i class="ri-menu-line"></i>
+          </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+          <li><a href="#home">HOME</a></li>
+          <li><a href="#special">SPECIALS</a></li>
+          <li><a href="#menu">MENU</a></li>
+          <li><a href="#events">EVENTS</a></li>
+          <li><a href="#contact">CONTACT US</a></li>
+        </ul>
+      </nav>
+      <div class="section__container header__container" id="home">
+        <div class="header__image">
+          <img src="header.png" alt="header" />
+        </div>
+        <div class="header__content">
+          <h2>THE PERFECT TIME TO INDULGE IN A BURGER</h2>
+          <h1>BURGER<br /><span>FEST</span></h1>
+        </div>
+      </div>
+    </header>
+
+    <section class="section__container banner__container" id="special">
+      <div class="banner__card">
+        <p>TASTE IT NOW</p>
+        <h4>BESTSELLER BURGER</h4>
+      </div>
+      <div class="banner__card">
+        <p>TASTE IT NOW</p>
+        <h4>EXTRA FUN<br />EXTRA FLAVOR</h4>
+      </div>
+      <div class="banner__card">
+        <p>TASTE IT NOW</p>
+        <h4>SPICY & FRESH</h4>
+      </div>
+    </section>
+
+    <section class="section__container order__container" id="menu">
+      <h3>DELICIOUS BURGERS</h3>
+      <h2 class="section__header">SELECT & ENJOY</h2>
+      <p class="section__description">
+        Discover the perfect blend of traditional and innovative flavors. Start your culinary adventure here and enjoy every mouthful with Burger House.
+      </p>
+      <div class="order__grid">
+        <div class="order__card">
+          <img src="order-1.png" alt="order" />
+          <h4>Classic Chicken Burger</h4>
+          <p>
+            Experience the classic delight of our Chicken Burger, a timeless favorite.
+          </p>
+          <button class="btn">ORDER NOW</button>
+        </div>
+        <div class="order__card">
+          <img src="order-2.png" alt="order" />
+          <h4>Veggie Supreme Burger</h4>
+          <p>
+            Savor the fresh and wholesome taste of our Veggie Supreme Burger.
+          </p>
+          <button class="btn">ORDER NOW</button>
+        </div>
+        <div class="order__card">
+          <img src="order-3.png" alt="order" />
+          <h4>BBQ Delight Burger</h4>
+          <p>
+            Enjoy the rich, smoky flavors of our BBQ Delight Burger, topped with crispy bacon.
+          </p>
+          <button class="btn">ORDER NOW</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container event__container" id="events">
+      <div class="event__content">
+        <div class="event__image">
+          <img src="event.png" alt="event" />
+        </div>
+        <div class="event__details">
+          <h3>Join Us</h3>
+          <h2 class="section__header">UPCOMING EVENTS</h2>
+          <p class="section__description">
+            Stay updated with our latest events, from burger tastings to community gatherings. Join us for memorable experiences and delicious moments at Burger House.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="reservation" id="contact">
+      <div class="section__container reservation__container">
+        <h3>RESERVE NOW</h3>
+        <h2 class="section__header">BOOK YOUR TABLE</h2>
+        <form action="/">
+          <input type="text" placeholder="NAME" />
+          <input type="email" placeholder="EMAIL" />
+          <input type="date" placeholder="DATE" />
+          <input type="time" placeholder="TIME" />
+          <input type="number" placeholder="PEOPLE" />
+          <button class="btn" type="submit">FIND TABLE</button>
+        </form>
+      </div>
+      <img
+        src="reservation-bg-1.png"
+        alt="reservation"
+        class="reservation__bg-1"
+      />
+      <img
+        src="reservation-bg-2.png"
+        alt="reservation"
+        class="reservation__bg-2"
+      />
+    </section>
+
+    <footer class="footer">
+      <div class="section__container footer__container">
+        <div class="footer__logo">
+          <img src="logo-white.png" alt="logo" />
+        </div>
+        <div class="footer__content">
+          <p>
+            Welcome to Burger House, where we are passionate about creating the ultimate burger experience. From premium ingredients to exceptional flavors, we ensure each bite is a delight.
+          </p>
+          <div>
+            <ul class="footer__links">
+              <li>
+                <span><i class="ri-map-pin-2-fill"></i></span>
+                 NS Road, Chennai, 600078
+              </li>
+              <li>
+                <span><i class="ri-mail-fill"></i></span>
+                info@burgerhouse.com
+              </li>
+            </ul>
+            <div class="footer__socials">
+              <a href="#"><i class="ri-facebook-circle-fill"></i></a>
+              <a href="#"><i class="ri-instagram-fill"></i></a>
+              <a href="#"><i class="ri-twitter-fill"></i></a>
+              <a href="#"><i class="ri-whatsapp-fill"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2024 Burger House. All rights reserved.
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="task1.js"></script>
+  </body>
+</html>
